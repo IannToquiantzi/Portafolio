@@ -16,7 +16,7 @@ function Hero() {
 
       <div style={{ marginTop: "20px" }}>
         <a
-          href="https://github.com/TU_USUARIO"
+          href="https://github.com/IannToquiantzi"
           target="_blank"
           style={{
             padding: "10px 20px",
