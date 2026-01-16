@@ -1,34 +1,43 @@
 function Hero() {
   return (
-    <section style={{ padding: "80px 20px", textAlign: "center" }}>
-      <h1 style={{ fontSize: "3rem", fontWeight: "bold" }}>
+    <section style={{ padding: "80px 0", textAlign: "center" }}>
+      <h1 style={{ fontSize: "3rem", fontWeight: "bold", marginBottom: "20px" }}>
         Horacio Iann Toquiantzi
+        <div className="text-red-500 text-4xl">
+        Tailwind funcionando
+        </div>
       </h1>
-      <p style={{ fontSize: "1.5rem", marginTop: "10px" }}>
+
+      <p style={{ fontSize: "1.3rem", marginBottom: "10px" }}>
         Software Developer | Full Stack | Game Development Enthusiast
       </p>
 
-      <p style={{ maxWidth: "600px", margin: "20px auto", fontSize: "1.1rem" }}>
+      <p style={{ 
+        maxWidth: "700px", 
+        margin: "20px auto", 
+        fontSize: "1.1rem", 
+        lineHeight: "1.5" 
+      }}>
         Passionate about building scalable applications, solving real-world
-        problems and contributing to multidisciplinary teams. Experience in 
+        problems and contributing to multidisciplinary teams. Experience in
         web apps, mobile development, backend systems and game projects.
       </p>
 
-      <div style={{ marginTop: "20px" }}>
-        <a
-          href="https://github.com/IannToquiantzi"
-          target="_blank"
-          style={{
-            padding: "10px 20px",
-            background: "#000",
-            color: "#fff",
-            borderRadius: "8px",
-            textDecoration: "none"
-          }}
-        >
-          View my GitHub
-        </a>
-      </div>
+      <a
+        href="https://github.com/TU_USUARIO"
+        target="_blank"
+        style={{
+          padding: "10px 20px",
+          background: "#000",
+          color: "#fff",
+          borderRadius: "8px",
+          textDecoration: "none",
+          marginTop: "20px",
+          display: "inline-block"
+        }}
+      >
+        View my GitHub
+      </a>
     </section>
   )
 }
