@@ -8,43 +8,26 @@ type ProjectCardProps = {
 
 function ProjectCard({ title, description, tech, repo, demo }: ProjectCardProps) {
   return (
-    <div
-      style={{
-        border: "1px solid #ddd",
-        borderRadius: "12px",
-        padding: "20px",
-        marginBottom: "20px"
-      }}
-    >
-      <h3 style={{ fontSize: "1.5rem", fontWeight: "bold" }}>{title}</h3>
+    <div className="project-card">
+      <h3 className="project-title">{title}</h3>
 
-      <p style={{ margin: "10px 0", fontSize: "1rem" }}>{description}</p>
+      <p className="project-description">{description}</p>
 
-      <div style={{ marginBottom: "10px" }}>
+      <div className="project-tags">
         {tech.map((t) => (
-          <span
-            key={t}
-            style={{
-              display: "inline-block",
-              padding: "5px 10px",
-              background: "#eee",
-              borderRadius: "6px",
-              marginRight: "8px",
-              marginTop: "5px"
-            }}
-          >
+          <span key={t} className="project-tag">
             {t}
           </span>
         ))}
       </div>
 
-      <div style={{ marginTop: "10px" }}>
-        <a href={repo} target="_blank" style={{ marginRight: "15px" }}>
+      <div className="project-links">
+        <a href={repo} target="_blank" className="project-link">
           GitHub Repository
         </a>
 
         {demo !== "#" && (
-          <a href={demo} target="_blank">
+          <a href={demo} target="_blank" className="project-link">
             Live Demo
           </a>
         )}

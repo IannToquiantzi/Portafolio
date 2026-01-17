@@ -6,14 +6,14 @@ import Contact from './sections/Contact'
 
 function App() {
   return (
-    <>
+    <div className="container">
       <Hero />
       <About />
       <Projects />
       <Skills />
       <Contact />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
