@@ -3,7 +3,7 @@ import SkillCategory from "../components/SkillCategory";
 
 export default function Skills() {
   return (
-    <section className="skills-section">
+    <section className="skills-section" data-aos="fade-up" data-aos-duration="1400">
       <h2 className="skills-title">Skills</h2>
 
       <SkillCategory title="Programming Languages" items={skills.languages} />

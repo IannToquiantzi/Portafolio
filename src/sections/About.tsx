@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" data-aos="fade-left" data-aos-duration="1400">
       <h2>About Me</h2>
 
       <p>

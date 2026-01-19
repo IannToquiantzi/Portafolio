@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
   return (
-    <section>
+    <section data-aos="fade-up" data-aos-duration="1400">
       <h2>Projects</h2>
 
       {projects.map((p) => (

@@ -5,7 +5,11 @@ import './index.css';
 import App from './App.tsx';
 import AOS from 'aos';
 
-AOS.init();
+AOS.init({
+  duration: 1000,
+  easing: "ease-in-out-back",
+  once: false,
+});
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

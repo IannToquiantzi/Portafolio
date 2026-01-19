@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" data-aos="fade-up" data-aos-duration="1400">
       <h1>Horacio Iann Toquiantzi</h1>
 
       <h3>Software Developer | Full Stack | Game Development Enthusiast</h3>
