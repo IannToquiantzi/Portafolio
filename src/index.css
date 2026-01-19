@@ -121,3 +121,108 @@ p {
 .project-link:hover {
   text-decoration: underline;
 }
+
+.skills-section {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.skills-title {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.skill-category {
+  margin-bottom: 45px;
+}
+
+.skill-category-title {
+  font-size: 1.3rem;
+  color: #ddd;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.skill-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.skill-tag {
+  background: #444;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+  transition: 0.25s ease;
+}
+
+.skill-tag:hover {
+  transform: translateY(-3px);
+  background: #555;
+}
+
+/* seccion de contacto */
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.contact-description {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-btn {
+  padding: 12px 22px;
+  min-width: 150px;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.25s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Button Colors */
+.contact-btn.email {
+  background: #000;
+}
+
+.contact-btn.github {
+  background: #333;
+}
+
+.contact-btn.linkedin {
+  background: #0a66c2;
+}
+
+/* Hover Effects */
+.contact-btn:hover {
+  transform: translateY(-4px);
+  opacity: 0.9;
+}
